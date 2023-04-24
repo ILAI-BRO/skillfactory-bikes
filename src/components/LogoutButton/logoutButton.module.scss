@@ -1,0 +1,10 @@
+.logoutButton{
+    background: var(--light-red);
+    margin-left: 20px;
+}
+
+@media(max-width: 800px){
+    .logoutButton{
+        width: 120px;
+    }
+}

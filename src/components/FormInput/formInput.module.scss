@@ -1,0 +1,20 @@
+label{
+    display: block;
+    font-size: 14px;
+    max-width: 284px;
+}
+
+.formInput{
+    width: 270px;
+    height: 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.formInputWrapper{
+    &:not(:first-child){
+        margin-top: 10px;
+    }
+}

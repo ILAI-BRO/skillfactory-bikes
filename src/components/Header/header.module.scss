@@ -1,0 +1,15 @@
+.header{
+    background: var(--green);
+    padding: 10px 0px;
+}
+
+.headerInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionsWrapper{
+    display: flex;
+    align-items: center;
+}
